@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #9fdaaf;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+form input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+form button {
+  color: #007BFF;
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+  outline: none;
+}
+form button:hover{
+ 
+  background-color: #007BFF;
+  color: #fff;
+}
+
+form label{
+  font-weight: bold;
+  width: 25%;
+}
+
+form select option {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  margin-bottom: 10px;
+}
+form select {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+select:hover, input:hover {
+  border-color: #007BFF; 
+}
